@@ -4,19 +4,19 @@ function Nav(){
 
     return (<>
     <header className="main-header">
-        <a href="/#">
-            <img src="../images/art.png" style={{height:"60px",width:"auto"}} alt="brand-logo"></img>
-            <div className="brand-name">
+        {/* <a href="/#">
+            <img src="../images/art.png" style={{height:"60px",width:"auto",borderRadius:"40%"}} alt="brand-logo"></img>
+            <div className="brand-name  ">
                 Family Tasks Tracker
             </div>
-        </a>
+        </a> */}
         <nav className="main-nav">
             <ul>
                 <li>
-                   <a href="/#">Create New Member</a> 
+                   <a href="/#">Add New +</a> 
                 </li>
                 <li>
-                <a href="/#">  View All Completed Tasks</a> 
+                <a href="/#">  Completed Tasks</a> 
                 </li>
             </ul>
         </nav>
